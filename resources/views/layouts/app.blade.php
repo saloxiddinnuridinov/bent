@@ -13,7 +13,7 @@
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
         <a href="{{ route('bent.index') }}"
            class="text-base font-medium text-gray-900">
-            BentCrypt
+            Bent.uz
         </a>
         <div class="flex gap-2 text-sm">
             <a href="{{ route('bent.index') }}"

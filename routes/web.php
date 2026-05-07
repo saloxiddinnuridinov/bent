@@ -4,9 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BentController;
 use App\Http\Controllers\SboxController;
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
 
 // Bosh sahifa
 Route::get('/', fn() => redirect()->route('bent.index'));

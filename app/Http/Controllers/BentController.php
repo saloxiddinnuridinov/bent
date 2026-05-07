@@ -1,5 +1,4 @@
 <?php
-// app/Http/Controllers/BentController.php
 
 namespace App\Http\Controllers;
 
