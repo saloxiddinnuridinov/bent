@@ -1,5 +1,4 @@
 <?php
-// app/Services/QuadraticApproximationService.php
 
 namespace App\Services;
 
