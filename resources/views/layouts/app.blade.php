@@ -3,7 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
     <title>@yield('title', 'BentCrypt') — Ilmiy tadqiqot vositasi</title>
+    <meta name="description" content="@yield('description', 'BentCrypt — bent funksiyalarni ilmiy tahlil qiluvchi zamonaviy tadqiqot vositasi.')">
+    <meta name="keywords" content="bent funksiya, kriptografiya, ilmiy tadqiqot, BentCrypt, boolean funksiya">
+    <meta name="author" content="BentCrypt">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ url()->current() }}">
+
+    <!-- Open Graph (Facebook, Telegram) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:title" content="@yield('title', 'BentCrypt') — Ilmiy tadqiqot vositasi">
+    <meta property="og:description" content="@yield('description', 'BentCrypt — bent funksiyalarni ilmiy tahlil qiluvchi zamonaviy tadqiqot vositasi.')">
+    <meta property="og:image" content="{{ asset('logo.png') }}">
+    <meta property="og:locale" content="uz_UZ">
+    <meta property="og:site_name" content="BentCrypt">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@yield('title', 'BentCrypt') — Ilmiy tadqiqot vositasi">
+    <meta name="twitter:description" content="@yield('description', 'BentCrypt — bent funksiyalarni ilmiy tahlil qiluvchi zamonaviy tadqiqot vositasi.')">
+    <meta name="twitter:image" content="{{ asset('logo.png') }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favicon.png') }}">
+    <link rel="manifest" href="{{ asset('site.web-manifest') }}">
+    <meta name="theme-color" content="#ffffff">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-50 text-gray-900">
